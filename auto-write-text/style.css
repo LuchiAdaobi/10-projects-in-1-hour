@@ -1,0 +1,28 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: coral;
+    color: white;
+    font-size: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+button{
+    padding: .6rem 1.6rem;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+    border-radius: .5rem;
+    position: fixed;
+    bottom: 10rem;
+}
+button:hover{
+    background-color: rgb(189, 203, 215);
+}

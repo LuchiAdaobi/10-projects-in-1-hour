@@ -1,0 +1,35 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+#container{
+    position: fixed;
+    bottom: .6rem;
+    right: .8rem;
+}
+.toast{
+   background-color: coral;
+   color: white; 
+   padding: 2rem;
+   border-radius: .5rem;
+}
+button {
+   background-color: rgb(193, 74, 31);
+   color: white; 
+   padding: 1rem; 
+   border-radius: .5rem;
+   border: none;
+   cursor: pointer;
+}
+button:hover{
+    background-color:chocolate ;
+}
